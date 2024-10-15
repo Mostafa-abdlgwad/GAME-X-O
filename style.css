@@ -1,0 +1,44 @@
+
+
+body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+hr{
+    width: 500px;
+    height: 3px;
+    background-color: black;
+    font-size: 40PX;
+
+}
+#board
+{
+    width: 450px;
+    height: 450px;
+    /* background-color: red; */
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+.tile{
+    width: 147px;
+    height: 147px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.horizontal-line
+{
+    border-bottom: 3px solid black;
+}
+.vertical-line{
+    border-right:3px solid black ;
+}
+.winner{
+    background-color: lightgray;
+    color: red;
+}
